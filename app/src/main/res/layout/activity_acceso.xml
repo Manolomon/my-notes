@@ -52,7 +52,7 @@
         app:passwordToggleEnabled="true">
 
         <EditText
-            android:id="@+id/txt_note"
+            android:id="@+id/txt_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -65,7 +65,10 @@
         android:id="@+id/btn_signin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:onClick="entrarOnClick"
         android:text="@string/acceso_sign_in_button"
+        android:textColor="#FFFEFE"
         android:textSize="18sp" />
 
     <Space

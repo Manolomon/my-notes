@@ -6,6 +6,7 @@
     <string name="acceso_sign_in_button">Entrar</string>
     <string name="acceso_sign_up_hint">¿No tienes usuario?</string>
     <string name="acceso_sign_up_button">Registrar</string>
+    <string name="acceso_progress_wait">Espera por favor...</string>
     <string name="registrar_title">Introduce tus Datos</string>
     <string name="registrar_name">Nombre</string>
     <string name="registrar_phone">Teléfono</string>
