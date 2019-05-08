@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="10dp"
-    tools:context=".AccesoActivity">
+    tools:context=".RegistrarActivity">
 
     <Space
         android:layout_width="match_parent"
@@ -38,7 +38,7 @@
         android:layout_height="wrap_content">
 
         <EditText
-            android:id="@+id/txt_name"
+            android:id="@+id/txt_usernameregistrar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -51,7 +51,7 @@
         android:layout_height="wrap_content">
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/txt_telefono"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -65,13 +65,13 @@
         android:layout_height="wrap_content">
 
         <EditText
-            android:id="@+id/txt_note"
+            android:id="@+id/txt_passwordregistrar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:ems="10"
             android:hint="@string/registrar_password"
             android:inputType="textPassword" />
-
     </android.support.design.widget.TextInputLayout>
 
     <Space
@@ -86,6 +86,7 @@
         android:background="@color/colorAccent"
         android:text="@string/registrar_sign_up_button"
         android:textColor="#FFFCFC"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:onClick="registrarUsuarioOnClick"/>
 
 </LinearLayout>

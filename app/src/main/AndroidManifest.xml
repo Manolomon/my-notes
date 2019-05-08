@@ -4,6 +4,8 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
 
     <application
         android:allowBackup="true"
@@ -12,10 +14,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DetalleActivity"></activity>
-        <activity android:name=".ConfirmarActivity" />
+        <activity android:name=".NotasActivity"/>
+        <activity android:name=".DetalleActivity" />
         <activity android:name=".RegistrarActivity" />
-        <activity android:name=".NotasActivity" />
+        <activity android:name=".ConfirmarActivity" />
         <activity android:name=".AccesoActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

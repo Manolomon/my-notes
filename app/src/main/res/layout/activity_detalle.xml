@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AccesoActivity">
+    tools:context=".DetalleActivity">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -36,7 +36,8 @@
                 android:ems="10"
                 android:gravity="top"
                 android:hint="@string/detalle_note"
-                android:inputType="textPersonName" />
+                android:scrollbars="vertical"
+                android:inputType="textMultiLine" />
 
         </android.support.design.widget.TextInputLayout>
 
@@ -46,12 +47,12 @@
         android:id="@+id/floatingActionButton"
         android:layout_width="98dp"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
         android:layout_weight="1"
         android:clickable="true"
-        app:srcCompat="@android:drawable/ic_menu_save"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginBottom="20dp"
-        android:layout_marginRight="20dp"
-        />
+        android:onClick="guardarNotaOnClick"
+        app:srcCompat="@drawable/ic_save_white_24dp" />
 </RelativeLayout>

@@ -38,12 +38,12 @@
         android:layout_height="wrap_content">
 
         <EditText
-            android:id="@+id/txt_name"
+            android:id="@+id/txt_username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/acceso_username"
-            android:inputType="textPersonName" />
+            android:inputType="phone" />
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
@@ -89,6 +89,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/acceso_sign_up_button"
+        android:onClick="registrarOnClick"
         android:textSize="18sp" />
 
 </LinearLayout>
